@@ -1,0 +1,131 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 40px; /* Adjusted padding */
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    background-color: lightcyan;
+    box-shadow: 0 0 10px cyan;
+    font-family: cursive;
+    color: black;
+
+
+    /* Adjusted width and height */
+    width: 50%;
+    max-width: 400px;
+    height: 80vh;
+}
+
+.select-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 350px;
+}
+
+.select-container div {
+    flex: 1;
+    margin: 0 5px;
+}
+
+h2 {
+    margin-bottom: 20px; /* Adjusted margin */
+    font-size: 24px; /* Adjusted font size */
+}
+
+select, input {
+    padding: 15px; /* Adjusted padding */
+    margin: 10px 0; /* Adjusted margin */
+    font-size: 18px; /* Adjusted font size */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 15px 30px; /* Adjusted padding */
+    margin-top: 20px; /* Adjusted margin */
+    font-size: 20px; /* Adjusted font size */
+    background-color: #00bcd4;
+    color: #fff;
+    border: none;
+    border-radius: 8px; /* Adjusted border-radius */
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00796b;
+}
+
+.result-container {
+    margin-top: 20px; /* Adjusted margin */
+    padding: 2%; /* Adjusted padding */
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    background-color: lightcyan;
+    box-shadow: 0 0 10px cyan;
+    font-family: cursive;
+    color: black;
+    width: 60%; /* Adjusted width */
+    max-width: 300px;
+    height: 12vh;
+    text-align: center;
+    display:block;
+    display: flex; /* Use flexbox to control layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+
+}
+h1 {
+    font-size: 2em; 
+    color: cyan;
+    font-family: cursive;
+    text-align: center;
+    border: 2px dashed cyan;
+    padding: 5px; 
+    border-radius: 30px;
+
+  
+  }
+.text-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: none;
+}
+
+
+select {
+    padding: 10px; /* Add padding to increase the clickable area */
+    font-size: 16px; /* Set the font size */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    background-color: #fff; /* Set background color */
+    color: #333; /* Set text color */
+  }
+
+  /* Optional hover effect */
+  select:hover {
+    border-color: #66afe9; /* Change border color on hover */
+  }
+
+  /* Optional focus effect */
+  select:focus {
+    outline: none; /* Remove the default focus outline */
+    box-shadow: 0 0 5px #66afe9; /* Add a subtle box-shadow on focus */
+  }

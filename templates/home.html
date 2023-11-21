@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles.css">
+    <title>Numeral Systems Converter</title>
+</head>
+<body>
+    
+        
+    <form action="/" method="post">
+        <h1>Numeral Systems Converter</h1>
+        <!-- Selecting numeral Systems -->
+        <div class="select-container">
+            <div>
+                <h2>From</h2>
+                <select equired name="system1" autofocus id="system1" class="form-select" aria-label="Default select example">
+                    <option value="" selected></option>
+                    <option value="Binary">Binary</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Decimal">Decimal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+            <div>
+                <h2>To</h2>
+                <select required name="system2" id="system2" class="form-select" aria-label="Default select example">
+                    <option value="" selected></option>
+                    <option value="Binary">Binary</option>
+                    <option value="Octal">Octal</option>
+                    <option value="Decimal">Decimal</option>
+                    <option value="Hexadecimal">Hexadecimal</option>
+                </select>
+            </div>
+        </div>
+
+        <!-- Number -->
+        <div>
+            <h2>Number</h2>
+            <input required autocomplete="off"  class= 'text-input' class="form-control mx-auto w-auto" id="number" name="number" placeholder="" type="text">
+        </div>
+        <button type="submit">Convert</button>
+        <div class = 'result-container'>
+        <h2> {{ result }}  </h2>
+    </div>
+    </form>
+    
+</body>
+</html>
+
+
+
