@@ -10,15 +10,7 @@ def index():
         system1 = request.form.get('system1')
         system2 = request.form.get('system2')
         number  = request.form.get('number').upper()
-        
-        ''' 
-        if system1 != 'Hexadecimal':
-            try:
-                number = int(number)
-            except:
-                return render_template('home.html',result = 'Invalid number')
-        '''
-                
+          
         if system1 == 'Binary':
             for digit in number:
                     try:
