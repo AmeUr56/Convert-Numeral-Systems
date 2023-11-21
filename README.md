@@ -9,4 +9,4 @@ just run this in terminal
 pip install -r requirements.txt
 
 ```
-![alt text](https://github.com/AmeUr56/Convert-Numeral-Systems/blob/main/static/image1.png?raw=true)
+![alt text](https://github.com/AmeUr56/Convert-Numeral-Systems/blob/main/static/image0.png?raw=true)
